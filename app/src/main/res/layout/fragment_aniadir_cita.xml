@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutContenedorMensajeNoTieneCitas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/no_dispone_de_ninguna_cita_para_concretar_la_primera_cita_debe_llamar_personalmente_al_medico"
+            android:textColor="#FFFFFF"></TextView>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutContenedorControles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_marginTop="96dp"
+            android:hint="@string/fecha_de_la_cita">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etFechaAniadir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:inputType="datetime" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/hora"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/fecha"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="@string/hora_cita" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnPedirCita"
+            android:layout_width="196dp"
+            android:layout_height="81dp"
+            android:layout_below="@+id/hora"
+            android:text="@string/a_adir" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

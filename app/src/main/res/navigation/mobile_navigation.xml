@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapplication.fragments.citas.FragmentCitas"
+        android:label="@string/citas"
+        tools:layout="@layout/fragment_citas" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.myapplication.fragments.informes.FragmentInforme"
+        android:label="@string/informes"
+        tools:layout="@layout/fragment_informes" />
+
+    <fragment
+        android:id="@+id/navigation_nueva_cita"
+        android:name="com.example.myapplication.fragments.aniadirCita.FragmentNuevaCita"
+        android:label="Nueva cita"
+        tools:layout="@layout/fragment_aniadir_cita" />
+
+</navigation>

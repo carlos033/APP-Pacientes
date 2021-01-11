@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eliminar">Eliminar</string>
+    <string name="titulo">Titulo</string>
+    <string name="url">Url</string>
+    <string name="a_adir">Añadir</string>
+    <string name="fecha_cita">fecha_cita</string>
+    <string name="lista_de_citas">Lista de Citas</string>
+    <string name="nunero_ss">Nunero SS</string>
+    <string name="abrir_url">Abrir Url</string>
+    <string name="citas">Citas</string>
+    <string name="informes">Informes</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="hint">hint</string>
+    <string name="textview">TextView</string>
+    <string name="hora_cita">Hora cita</string>
+    <string name="numero_ss">Numero SS</string>
+    <string name="nueva_cita">Nueva Cita</string>
+    <string name="no_dispone_de_ninguna_cita_para_concretar_la_primera_cita_debe_llamar_personalmente_al_medico">No dispone de ninguna cita. Para concretar la primera cita debe llamar personalmente al medico</string>
+    <string name="fecha_de_la_cita">Fecha de la cita</string>
+</resources>
